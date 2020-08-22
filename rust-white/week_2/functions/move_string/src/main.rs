@@ -9,10 +9,5 @@ fn main() {
 }
 
 fn move_strings(source: &mut Vec<String>, destination: &mut Vec<String>) {
-    
-    for word in &*source {
-        destination.push(word.clone());
-    }
-
-    source.clear();
+    destination.extend(source.drain(..).collect::<Vec<String>>());
 }

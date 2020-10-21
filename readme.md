@@ -1,2 +1,2 @@
-This repository contain all of my finished tasks from [yandex-coursera](https://www.coursera.org/specializations/c-plus-plus-modern-development) course.
+This repository contain all of my finished tasks from [python-coursera](https://www.coursera.org/specializations/programming-in-python) course.
 But all code is rewritten in Rust. 
